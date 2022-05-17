@@ -17,8 +17,8 @@ body > :first-child {
 
 body > :last-child {
     width: 70%;
-    height: calc(100vh -  6rem);
-    background-color: rgb(122, 107, 107);
+    height: 100vh;
+    background-color: rgb(196, 196, 196);
 }
 
 input, label {
@@ -36,30 +36,52 @@ input, label {
     align-items: center;
     position: relative;
     top: 20%;
-    height: 10rem;
+    height: 14rem;
+    width: 100%;
     background-color: rgb(0, 0, 0, .3);
 }
 
 .logoHolder > p {
     opacity: 1;
     color: black;
+    font-size: 4rem;
+    font-weight: 650;
+    font-style: italic;
+    letter-spacing: 0.7rem;
+    
 }
 
 .rightContainer {
-    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.rightContainer > * {
+    padding: 3rem;
+}
+
 .textHolder {
 height: 40%;
+display: flex;
+justify-content: end;
+flex-direction: column;
 }
 
 .formHolder {
 height: 33%;
+background-color: rgb(236, 236, 236);
 }
 
 .buttonHolder {
-height: 37%;
+height: auto;
+}
+
+img {
+    height: 100%;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0;
 }

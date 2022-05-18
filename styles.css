@@ -27,6 +27,17 @@ input, label {
 
 input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 250px;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+input:focus:invalid {
+    border: 2px solid red;
+    outline: none;
 }
 
 .account::after {
